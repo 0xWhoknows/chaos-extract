@@ -11,13 +11,14 @@ This tool can extract sudomains from `https://chaos.projectdiscovery.io/` and sa
 #### Usage
 
 ```bash
-python3 chaosextract.py [options]
+python3 chaosextract.py -h
 ```
 
 #### Options
 
 - `-c`: Number of concurrent download threads (default 30)
 - `-o`: The name and location of the output file
+- `-k`: Keywords to filter URLs (e.g., apple google)
 
 #### Example
 
